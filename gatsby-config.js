@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/`, // 取得先を指定
+        name: `graphics`,
+        path: `${__dirname}/src/pages/graphics/`, // 取得先を指定
       },
     },
     {
