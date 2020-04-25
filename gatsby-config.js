@@ -5,5 +5,24 @@
  */
 
 module.exports = {
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/`, // 取得先を指定
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-prismjs`,
+          },
+        ],
+      },
+    },
+  ],
 }
