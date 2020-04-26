@@ -8,11 +8,14 @@ export default ({ data }) => {
   return (
     <Layout>
       {
-        <div>
-          <h1>{node.frontmatter.title}</h1>
-          <h2>{node.frontmatter.date}</h2>
-          <div dangerouslySetInnerHTML={{ __html: node.html }} />
-        </div>
+        <main className="is-full container">
+          <section className="section">
+            <h2 className="title is-4">{node.frontmatter.title}</h2>
+            <div className="content sentence">
+              <div dangerouslySetInnerHTML={{ __html: node.html }} />
+            </div>
+          </section>
+        </main>
       }
     </Layout>
 

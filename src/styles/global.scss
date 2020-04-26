@@ -12,3 +12,8 @@ body {
 
 // If need, change your variables before importing Bulma
 $title-color: #ff0000;
+
+iframe {
+    min-width: 100%;
+    height: 800px;
+}

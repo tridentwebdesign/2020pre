@@ -26,7 +26,7 @@ export default ({ data }) => {
 export const query = graphql`
   {
                   allMarkdownRemark(
-                    filter: {fields: {collection: {eq: "graphics-zero"}}}
+                    filter: {fields: {collection: {eq: "vector-zero"}}}
     ){
                   edges {
                   node {

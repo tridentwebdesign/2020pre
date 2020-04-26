@@ -29,8 +29,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages/vector/`,
-        name: `vector`,
+        path: `${__dirname}/src/pages/vector/page-zero`,
+        name: `vector-zero`,
       },
     },
     {
