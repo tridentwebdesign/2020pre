@@ -12,6 +12,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sass`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -24,6 +25,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages/graphics/page-one`,
         name: `graphics-one`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages/graphics`,
+        name: `graphics`,
       },
     },
     {
