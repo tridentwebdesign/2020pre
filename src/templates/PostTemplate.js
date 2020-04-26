@@ -20,16 +20,22 @@ export default function (props) {
   const { frontmatter } = post
   return (
     <Layout>
-      <article>
-        <h2>{frontmatter.title}</h2>
-        <div>
-          <span>投稿日: {frontmatter.date}</span>
-          <br />
-          <span>投稿者: {frontmatter.author}</span>
-        </div>
-        <hr />
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      </article>
+      {
+        <main className="is-full container">
+          <section className="section">
+            <h2 className="title is-4">{frontmatter.title}</h2>
+            <div className="content sentence">
+              <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            </div>
+          </section>
+          <section className="section report">
+            <ul>
+              <li>投稿日: {frontmatter.date}</li>
+              <li>投稿者: {frontmatter.author}</li>
+            </ul>
+          </section>
+        </main>
+      }
     </Layout>
   )
 }

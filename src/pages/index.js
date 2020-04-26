@@ -15,7 +15,7 @@ const IndexPage = () => {
                                     <h2 className="title is-5">ベクターグラフィックス</h2>
                                     <div className="content">
                                         <ol>
-                                            <li><Link to="/vector/page-zero/000">概要</Link></li>
+                                            <li><Link to="/">概要</Link></li>
                                             <li><Link to="/">Illustrator起動</Link></li>
                                         </ol>
                                     </div>
@@ -34,8 +34,8 @@ const IndexPage = () => {
                                     <h2 className="title is-5">グラフィックデザイン</h2>
                                     <div className="content">
                                         <ol>
-                                            <li><Link to="/graphics/page-zero/000">概要</Link></li>
-                                            <li><Link to="/graphics/page-one/001">デザイン腕試し（名刺）</Link></li>
+                                            <li><Link to="/graphics/post-0">概要</Link></li>
+                                            <li><Link to="/graphics/post-1">デザイン腕試し（名刺）</Link></li>
                                         </ol>
                                     </div>
                                 </div>

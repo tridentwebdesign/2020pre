@@ -1,5 +1,4 @@
 const path = require(`path`)
-console.log(path);
 
 exports.createPages = async ({ actions, graphql }) => {
   const sources = await graphql(`
@@ -22,7 +21,7 @@ exports.createPages = async ({ actions, graphql }) => {
 
   const posts = sources.data.allMarkdownRemark.edges
   posts.forEach(({ node }) => {
-    const outputPath = path.join("graphics", node.frontmatter.slug)
+    const outputPath = path.join(`graphics`, node.frontmatter.slug)
     actions.createPage({
       path: outputPath,
       component: path.resolve(__dirname, "./src/templates/PostTemplate.js"),
