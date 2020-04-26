@@ -1,3 +1,4 @@
+// MarkdownRemarkのフィールドに引き継ぐ
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators
 

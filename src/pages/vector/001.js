@@ -22,7 +22,7 @@ export default ({ data }) => {
 export const query = graphql`
   {
     allMarkdownRemark( 
-    filter: { fields: { collection: {eq: "graphics"}}}
+    filter: { fields: { collection: {eq: "vector"}}}
     ){
       edges {
         node {

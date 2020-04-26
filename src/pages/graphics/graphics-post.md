@@ -1,7 +1,8 @@
 ---
-title: "Syntax highlight"
-date: "2017-08-21"
+title: "Syntax highlightfff"
+date: "2020-08-21"
 tags: [foo, bar]
+path: "/graphics/mfpost"
 ---
 
 ```javascript
