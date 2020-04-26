@@ -15,7 +15,7 @@ const IndexPage = () => {
                                     <h2 className="title is-5">ベクターグラフィックス</h2>
                                     <div className="content">
                                         <ol>
-                                            <li><Link to="/">概要</Link></li>
+                                            <li><Link to="/vector/post-0">概要</Link></li>
                                             <li><Link to="/">Illustrator起動</Link></li>
                                         </ol>
                                     </div>

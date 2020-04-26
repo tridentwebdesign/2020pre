@@ -11,6 +11,7 @@ exports.createPages = async ({ actions, graphql }) => {
             id
             frontmatter {
               slug
+              category
             }
           }
         }
@@ -21,7 +22,8 @@ exports.createPages = async ({ actions, graphql }) => {
 
   const posts = sources.data.allMarkdownRemark.edges
   posts.forEach(({ node }) => {
-    const outputPath = path.join(`graphics`, node.frontmatter.slug)
+    const category = String(node.frontmatter.category)
+    const outputPath = path.join(category, node.frontmatter.slug)
     actions.createPage({
       path: outputPath,
       component: path.resolve(__dirname, "./src/templates/PostTemplate.js"),
