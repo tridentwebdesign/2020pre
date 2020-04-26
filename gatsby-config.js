@@ -15,14 +15,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages/graphics/`,
+        path: `${__dirname}/src/pages/graphics/page-zero`,
         name: `graphics-zero`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages/graphics/`,
+        path: `${__dirname}/src/pages/graphics/page-one`,
         name: `graphics-one`,
       },
     },
