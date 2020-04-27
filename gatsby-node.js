@@ -3,9 +3,7 @@ const path = require(`path`)
 exports.createPages = async ({ actions, graphql }) => {
   const sources = await graphql(`
     {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
-      ) {
+      allMarkdownRemark {
         edges {
           node {
             id

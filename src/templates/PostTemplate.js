@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout/layout"
 
+
 export const pageQuery = graphql`
 query($id: String!) {
   markdownRemark(id: { eq: $id }) {

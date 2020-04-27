@@ -16,7 +16,16 @@ const IndexPage = () => {
                                     <div className="content">
                                         <ol>
                                             <li><Link to="/vector/post-0">概要</Link></li>
-                                            <li><Link to="/">Illustrator起動</Link></li>
+                                            <li><Link to="/vector/post-1">はじめてのIllustrator</Link></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div className="column is-half">
+                                    <h2 className="title is-5">業界研究（Webリテラシー）</h2>
+                                    <div className="content">
+                                        <ol>
+                                            <li><Link to="/industry/post-0">概要</Link></li>
+                                            <li><Link to="/industry/post-1">Webブラウザ</Link></li>
                                         </ol>
                                     </div>
                                 </div>
