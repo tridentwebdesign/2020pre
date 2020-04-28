@@ -21,3 +21,15 @@ iframe {
 .report {
     text-align: right;
 }
+
+@media (max-width: 680px) {
+    iframe {
+        max-width: 100%;
+        height: 300px;
+    }
+
+    .content figure {
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+}

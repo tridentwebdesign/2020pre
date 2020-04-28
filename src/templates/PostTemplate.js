@@ -30,7 +30,7 @@ export default function (props) {
         meta={[
           {
             name: 'description',
-            content: props.description || 'Gastbyサンプル'
+            content: frontmatter.description
           }
         ]}
       />
