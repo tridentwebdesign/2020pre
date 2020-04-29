@@ -13,6 +13,22 @@ body {
 // If need, change your variables before importing Bulma
 $title-color: #ff0000;
 
+a {
+    color: #363636;
+
+    &:hover {
+        color: $link;
+    }
+}
+
+.title {
+    line-height: 1.3;
+
+    &.is-3 {
+        color: $grey;
+    }
+}
+
 iframe {
     min-width: 100%;
     height: 800px;

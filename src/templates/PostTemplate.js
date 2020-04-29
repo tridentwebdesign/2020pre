@@ -2,6 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout/layout"
 import { Helmet } from "react-helmet"
+import scrollTo from 'gatsby-plugin-smoothscroll'
+import postStyles from '../styles/article.module.scss'
 
 
 export const pageQuery = graphql`
@@ -31,6 +33,10 @@ export default function (props) {
           {
             name: 'description',
             content: frontmatter.description
+          },
+          {
+            name: 'robot',
+            content: 'noindex'
           }
         ]}
       />
@@ -49,6 +55,9 @@ export default function (props) {
                 <li>投稿者: {frontmatter.author}</li>
               </ul>
             </section>
+            <div role="button" tabindex="0" className={`backto ${postStyles.backto}`} onClick={() => scrollTo('html')} onKeyPress={() => scrollTo('html')}>
+              ▲ Back to top
+          </div>
           </main>
         }
       </Layout>

@@ -1,63 +1,114 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/Layout/layout'
+import { Helmet } from 'react-helmet'
 
 const IndexPage = () => {
     return (
-        <Layout>
-            {
-                <div className="wrapper">
-                    <section className="section">
-                        <div className="container">
-                            <h2 className="title is-4 notification">WF1（1年生）</h2>
-                            <div className="columns">
-                                <div className="column is-half">
-                                    <h2 className="title is-5">ベクターグラフィックス</h2>
-                                    <div className="content">
-                                        <ol>
-                                            <li><Link to="/vector/post-0">概要</Link></li>
-                                            <li><Link to="/vector/post-1">はじめてのIllustrator</Link></li>
-                                        </ol>
+        <div>
+            <Helmet
+                htmlAttributes={{
+                    lang: 'ja',
+                }}
+                title='2020年度 トライデントコンピュータ専門学校 Webデザイン学科授業資料'
+                meta={[
+                    {
+                        name: 'description',
+                        content: 'トライデントコンピュータ専門学校Webデザイン学科の河口担当教科授業資料'
+                    },
+                    {
+                        name: 'robot',
+                        content: 'noindex'
+                    }
+                ]}
+            />
+            <Layout>
+                {
+                    <div className="wrapper">
+                        <section className="section">
+                            <div className="container">
+                                <h2 className="title is-3">WF1（1年生）</h2>
+                                <div className="columns">
+                                    <div className="column is-4">
+                                        <h2 className="title is-5">ベクターグラフィックス</h2>
+                                        <div className="content">
+                                            <ol>
+                                                <li><Link to="/vector/post-0">概要</Link></li>
+                                                <li><Link to="/vector/post-1">はじめてのIllustrator</Link></li>
+                                            </ol>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="column is-half">
-                                    <h2 className="title is-5">業界研究（Webリテラシー）</h2>
-                                    <div className="content">
-                                        <ol>
-                                            <li><Link to="/industry/post-0">概要</Link></li>
-                                            <li><Link to="/industry/post-1">Webブラウザ</Link></li>
-                                        </ol>
+                                    <div className="column is-4">
+                                        <h2 className="title is-5">業界研究（Webリテラシー）</h2>
+                                        <div className="content">
+                                            <ol>
+                                                <li><Link to="/industry/post-0">概要</Link></li>
+                                                <li><Link to="/industry/post-1">Webブラウザ</Link></li>
+                                            </ol>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="column is-half">
-                                </div>
+                                    <div className="column is-4">
+                                        <h2 className="title is-5">Webデザイン</h2>
+                                        <div className="content">
+                                            <ol>
+                                                <li><Link to="/webdesign/post-0">概要</Link></li>
+                                                <li><Link to="/webdesign/post-1">はじめてのPhotoshop</Link></li>
+                                            </ol>
+                                        </div>
+                                    </div>
 
+                                </div>
                             </div>
-                        </div>
-                    </section>
-                    <section className="section">
-                        <div className="container">
-                            <h2 className="title is-4 notification">WS1（2年生）</h2>
-                            <div className="columns">
-                                <div className="column is-half">
-                                    <h2 className="title is-5">グラフィックデザイン</h2>
-                                    <div className="content">
-                                        <ol>
-                                            <li><Link to="/graphics/post-0">概要</Link></li>
-                                            <li><Link to="/graphics/post-1">デザイン腕試し（名刺）</Link></li>
-                                        </ol>
+                        </section>
+                        <section className="section">
+                            <div className="container">
+                                <h2 className="title is-3">WS1（2年生）</h2>
+                                <div className="columns">
+                                    <div className="column is-4">
+                                        <h2 className="title is-5">グラフィックデザイン</h2>
+                                        <div className="content">
+                                            <ol>
+                                                <li><Link to="/graphics/post-0">概要</Link></li>
+                                                <li><Link to="/graphics/post-1">デザイン腕試し（名刺）</Link></li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <div className="column is-4">
+                                        <h2 className="title is-5">JavaScript演習</h2>
+                                        <div className="content">
+                                            <ol>
+                                                <li><Link to="/javascript/post-0">概要</Link></li>
+                                                <li><Link to="/">jQuery</Link></li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <div className="column is-4">
+                                        <h2 className="title is-5">Webアプリ制作</h2>
+                                        <div className="content">
+                                            <ol>
+                                                <li><Link to="/">概要</Link></li>
+                                                <li><Link to="/">UX手法</Link></li>
+                                            </ol>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="column is-half">
-
+                                <div className="columns">
+                                    <div className="column is-4">
+                                        <h2 className="title is-5">就職研究</h2>
+                                        <div className="content">
+                                            <ol>
+                                                <li><Link to="/">概要</Link></li>
+                                                <li><Link to="/">就職活動報告</Link></li>
+                                            </ol>
+                                        </div>
+                                    </div>
                                 </div>
-
                             </div>
-                        </div>
-                    </section>
-                </div>
-            }
-        </Layout>
+                        </section>
+                    </div>
+                }
+            </Layout>
+        </div>
     )
 }
 

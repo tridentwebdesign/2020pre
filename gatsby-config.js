@@ -13,14 +13,38 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sass`,
+    `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Webデザイン学科授業資料`,
+        short_name: `WebDesign`,
+        start_url: `/`,
+        icon: `src/images/webicon.png`,
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages/graphics`,
         name: `graphics`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages/javascript`,
+        name: `javascript`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages/webdesign`,
+        name: `webdesign`,
       },
     },
     {
@@ -55,6 +79,20 @@ module.exports = {
             options: {
               rel: "nofollow noopener noreferrer",
             }
+          },
+          {
+            resolve: "gatsby-remark-custom-blocks",
+            options: {
+              blocks: {
+                title3: {
+                  classes: "title is-5",
+                },
+                info: {
+                  classes: "info",
+                  title: "optional",
+                },
+              },
+            },
           },
         ],
       },

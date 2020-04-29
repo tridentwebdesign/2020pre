@@ -1,8 +1,12 @@
-.iframe {
-    min-width: 100%;
-    height: 800px;
-}
+.backto {
+    text-align: center;
+    padding-bottom: 1em;
 
-.list th {
-    padding-right: 30px;
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        color: gray;
+    }
 }
