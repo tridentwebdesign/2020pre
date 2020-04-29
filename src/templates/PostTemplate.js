@@ -14,6 +14,7 @@ query($id: String!) {
       title
       date(formatString: "YYYY/MM/DD")
       author
+      description
     }
   }
 }
