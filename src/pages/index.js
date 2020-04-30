@@ -78,7 +78,7 @@ const IndexPage = () => {
                                         <div className="content">
                                             <ol>
                                                 <li><Link to="/javascript/post-0">概要</Link></li>
-                                                <li><Link to="/">jQuery</Link></li>
+                                                <li><Link to="/javascript/post-1">jQuery</Link></li>
                                             </ol>
                                         </div>
                                     </div>
