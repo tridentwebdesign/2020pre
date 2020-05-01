@@ -43,6 +43,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/src/pages/jobhunting`,
+        name: `jobhunting`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/src/pages/webdesign`,
         name: `webdesign`,
       },
