@@ -50,6 +50,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/src/pages/application`,
+        name: `application`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/src/pages/webdesign`,
         name: `webdesign`,
       },

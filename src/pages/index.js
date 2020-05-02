@@ -86,8 +86,8 @@ const IndexPage = () => {
                                         <h2 className="title is-5">Webアプリ制作</h2>
                                         <div className="content">
                                             <ol>
-                                                <li><Link to="/">概要</Link></li>
-                                                <li><Link to="/">UX手法</Link></li>
+                                                <li><Link to="/application/post-0">概要</Link></li>
+                                                <li><Link to="/application/post-1">UX手法</Link></li>
                                             </ol>
                                         </div>
                                     </div>
