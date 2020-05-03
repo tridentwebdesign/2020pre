@@ -33,8 +33,8 @@ exports.createPages = async ({ actions, graphql }) => {
 }
 
 // MarkdownRemarkのフィールドに引き継ぐ
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
 
   // MarkdownRemarkNodeの場合のみ処処
   if (node && node.internal && node.internal.type === 'MarkdownRemark') {

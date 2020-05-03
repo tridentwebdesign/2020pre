@@ -35,6 +35,7 @@ const IndexPage = () => {
                                             <ol>
                                                 <li><Link to="/vector/post-0">概要</Link></li>
                                                 <li><Link to="/vector/post-1">はじめてのIllustrator</Link></li>
+                                                <li><Link to="/">はじめてのベジェ曲線</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -53,6 +54,7 @@ const IndexPage = () => {
                                             <ol>
                                                 <li><Link to="/webdesign/post-0">概要</Link></li>
                                                 <li><Link to="/webdesign/post-1">はじめてのPhotoshop</Link></li>
+                                                <li><Link to="/">合成してみよう</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -70,6 +72,7 @@ const IndexPage = () => {
                                             <ol>
                                                 <li><Link to="/graphics/post-0">概要</Link></li>
                                                 <li><Link to="/graphics/post-1">デザイン腕試し（名刺）</Link></li>
+                                                <li><Link to="/">タイポグラフィ</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -79,6 +82,7 @@ const IndexPage = () => {
                                             <ol>
                                                 <li><Link to="/javascript/post-0">概要</Link></li>
                                                 <li><Link to="/javascript/post-1">jQuery</Link></li>
+                                                <li><Link to="/">formからのデータ取得</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -87,7 +91,8 @@ const IndexPage = () => {
                                         <div className="content">
                                             <ol>
                                                 <li><Link to="/application/post-0">概要</Link></li>
-                                                <li><Link to="/application/post-1">UX手法</Link></li>
+                                                <li><Link to="/application/post-1">UX手法_インタビュー</Link></li>
+                                                <li><Link to="/">UX手法_ペルソナ作成</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -97,8 +102,9 @@ const IndexPage = () => {
                                         <h2 className="title is-5">就職研究</h2>
                                         <div className="content">
                                             <ol>
-                                                <li><Link to="/">概要</Link></li>
+                                                <li><Link to="/jobhunting/post-0">概要</Link></li>
                                                 <li><Link to="/jobhunting/post-1">就職活動報告</Link></li>
+                                                <li><Link to="/">1分間スピーチ①</Link></li>
                                             </ol>
                                         </div>
                                     </div>
