@@ -45,6 +45,7 @@ const IndexPage = () => {
                                             <ol>
                                                 <li><Link to="/industry/post-0">概要</Link></li>
                                                 <li><Link to="/industry/post-1">Webブラウザ</Link></li>
+                                                <li><Link to="/industry/post-2">Webサーバー</Link></li>
                                             </ol>
                                         </div>
                                     </div>

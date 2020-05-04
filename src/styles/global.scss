@@ -64,6 +64,7 @@ a {
 
 .report {
     text-align: right;
+    font-size: .8em;
 }
 
 span.token.number {
@@ -86,6 +87,9 @@ span.token.number {
     margin-bottom: 2em;
 }
 
+.footer small {
+    font-size: .6em;
+}
 
 
 @media (max-width: 680px) {
@@ -101,7 +105,4 @@ span.token.number {
         margin-right: 0em;
     }
 
-    .report {
-        font-size: .8em;
-    }
 }
