@@ -67,6 +67,16 @@ a {
     font-size: .8em;
 }
 
+.table .table-top tr th {
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+}
+
+.table tbody th {
+    vertical-align: middle;
+}
+
 span.token.number {
     align-items: center;
     color: #ccc;

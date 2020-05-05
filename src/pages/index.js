@@ -35,7 +35,7 @@ const IndexPage = () => {
                                             <ol>
                                                 <li><Link to="/vector/post-0">概要</Link></li>
                                                 <li><Link to="/vector/post-1">はじめてのIllustrator</Link></li>
-                                                <li><Link to="/">はじめてのベジェ曲線</Link></li>
+                                                <li><Link to="/vector/post-2">はじめてのベジェ曲線</Link></li>
                                             </ol>
                                         </div>
                                     </div>
