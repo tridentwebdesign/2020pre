@@ -55,7 +55,7 @@ const IndexPage = () => {
                                             <ol>
                                                 <li><Link to="/webdesign/post-0">概要</Link></li>
                                                 <li><Link to="/webdesign/post-1">はじめてのPhotoshop</Link></li>
-                                                <li><Link to="/">合成してみよう</Link></li>
+                                                <li><Link to="/webdesign/post-2">合成してみよう</Link></li>
                                             </ol>
                                         </div>
                                     </div>
