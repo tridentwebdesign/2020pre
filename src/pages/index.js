@@ -36,6 +36,7 @@ const IndexPage = () => {
                                                 <li><Link to="/vector/post-0">概要</Link></li>
                                                 <li><Link to="/vector/post-1">はじめてのIllustrator</Link></li>
                                                 <li><Link to="/vector/post-2">はじめてのベジェ曲線</Link></li>
+                                                <li><Link to="/">トレース（ベジェ曲線演習）</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -46,6 +47,7 @@ const IndexPage = () => {
                                                 <li><Link to="/industry/post-0">概要</Link></li>
                                                 <li><Link to="/industry/post-1">Webブラウザ</Link></li>
                                                 <li><Link to="/industry/post-2">Webサーバー</Link></li>
+                                                <li><Link to="/">ネットワーク技術</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -56,6 +58,7 @@ const IndexPage = () => {
                                                 <li><Link to="/webdesign/post-0">概要</Link></li>
                                                 <li><Link to="/webdesign/post-1">はじめてのPhotoshop</Link></li>
                                                 <li><Link to="/webdesign/post-2">合成してみよう</Link></li>
+                                                <li><Link to="/">様々なマスキング</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -73,7 +76,8 @@ const IndexPage = () => {
                                             <ol>
                                                 <li><Link to="/graphics/post-0">概要</Link></li>
                                                 <li><Link to="/graphics/post-1">デザイン腕試し（名刺）</Link></li>
-                                                <li><Link to="/">タイポグラフィ</Link></li>
+                                                <li><Link to="/graphics/post-2">タイポグラフィ</Link></li>
+                                                <li><Link to="/">グリッドデザイン</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -84,6 +88,7 @@ const IndexPage = () => {
                                                 <li><Link to="/javascript/post-0">概要</Link></li>
                                                 <li><Link to="/javascript/post-1">jQuery</Link></li>
                                                 <li><Link to="/javascript/post-2">formからのデータ取得</Link></li>
+                                                <li><Link to="/">Ajax</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -106,6 +111,7 @@ const IndexPage = () => {
                                                 <li><Link to="/jobhunting/post-0">概要</Link></li>
                                                 <li><Link to="/jobhunting/post-1">就職活動報告</Link></li>
                                                 <li><Link to="/jobhunting/post-2">1分間スピーチ①</Link></li>
+                                                <li><Link to="/">1分間スピーチ②</Link></li>
                                             </ol>
                                         </div>
                                     </div>
