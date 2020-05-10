@@ -88,7 +88,10 @@ const IndexPage = () => {
                                                 <li><Link to="/javascript/post-0">概要</Link></li>
                                                 <li><Link to="/javascript/post-1">jQuery</Link></li>
                                                 <li><Link to="/javascript/post-2">formからのデータ取得</Link></li>
-                                                <li><Link to="/">Ajax</Link></li>
+                                                <li><Link to="/">Ajax</Link>
+                                                    <ul>
+                                                        <li><Link to="/">Git準備</Link></li>
+                                                    </ul></li>
                                             </ol>
                                         </div>
                                     </div>

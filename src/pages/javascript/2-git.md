@@ -1,20 +1,16 @@
 ---
 title: "JavaScript_2"
-description: 'formから値を取得して取り扱う'
+description: 'Gitを利用できる環境を構築する'
 category: 'javascript'
 date: "2020-05-11"
-tags: ['JavaScript', 'Event']
+tags: ['Git', 'GitHub']
 author: '河口 英生'
-slug: 'post-2'
-featuredImage: speed_fast_rabbit.png
+slug: 'post-git'
+featuredImage: 
 ---
 <div class="post-section">
 <h3 class="title is-5" >小テスト</h3>
-
-[JavaScript演習小テスト①](https://forms.gle/EJkknSmLMKBrT7YQ6)
-<p>jQeryを使ってみよう。</p>
 </div>
-
 <div class="post-section">
 <h3 class="title is-5" >Form</h3>
 <figure class="is-fullwidth slide">
