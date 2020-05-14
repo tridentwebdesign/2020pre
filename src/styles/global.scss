@@ -59,6 +59,14 @@ a {
     &.is-3 {
         color: $grey;
     }
+
+    &.is-6 {
+        margin-bottom: .8em;
+    }
+}
+
+h4.is-6+p:not(:last-child) {
+    margin-bottom: 2em;
 }
 
 .wrapper .column {
