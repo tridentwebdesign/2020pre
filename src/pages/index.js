@@ -48,6 +48,7 @@ const IndexPage = () => {
                                                 <li><Link to="/industry/post-1">Webブラウザ</Link></li>
                                                 <li><Link to="/industry/post-2">Webサーバー</Link></li>
                                                 <li><Link to="/">ネットワーク技術</Link></li>
+                                                <li><Link to="/">HTTP</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -58,7 +59,7 @@ const IndexPage = () => {
                                                 <li><Link to="/webdesign/post-0">概要</Link></li>
                                                 <li><Link to="/webdesign/post-1">はじめてのPhotoshop</Link></li>
                                                 <li><Link to="/webdesign/post-2">合成してみよう</Link></li>
-                                                <li><Link to="/">様々なマスキング</Link></li>
+                                                <li><Link to="/webdesign/post-3">様々なマスキングとテキスト</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -88,10 +89,13 @@ const IndexPage = () => {
                                                 <li><Link to="/javascript/post-0">概要</Link></li>
                                                 <li><Link to="/javascript/post-1">jQuery</Link></li>
                                                 <li><Link to="/javascript/post-2">formからのデータ取得</Link></li>
-                                                <li><Link to="/">オブジェクト_Ajax</Link>
+                                                <li><Link to="/javascript/post-3">オブジェクト_非同期</Link>
+                                                </li>
+                                                <li><Link to="/">Ajax</Link>
                                                     <ul>
                                                         <li><Link to="/">Git準備</Link></li>
-                                                    </ul></li>
+                                                    </ul>
+                                                </li>
                                             </ol>
                                         </div>
                                     </div>
@@ -115,6 +119,7 @@ const IndexPage = () => {
                                                 <li><Link to="/jobhunting/post-1">就職活動報告</Link></li>
                                                 <li><Link to="/jobhunting/post-2">1分間スピーチ①</Link></li>
                                                 <li><Link to="/jobhunting/post-3">1分間スピーチ②</Link></li>
+                                                <li><Link to="/jobhunting/post-4">1分間スピーチ③</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -124,7 +129,7 @@ const IndexPage = () => {
                     </div>
                 }
             </Layout>
-        </div>
+        </div >
     )
 }
 
