@@ -1,8 +1,8 @@
 ---
-title: "JavaScript_2"
+title: "JavaScript_Git"
 description: 'Gitを利用できる環境を構築する'
 category: 'javascript'
-date: "2020-05-11"
+date: "2020-05-18"
 tags: ['Git', 'GitHub']
 author: '河口 英生'
 slug: 'post-git'
