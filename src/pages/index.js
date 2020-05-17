@@ -93,7 +93,7 @@ const IndexPage = () => {
                                                 </li>
                                                 <li><Link to="/">Ajax</Link>
                                                     <ul>
-                                                        <li><Link to="/">Git準備</Link></li>
+                                                        <li><Link to="/javascript/post-git">Git準備</Link></li>
                                                     </ul>
                                                 </li>
                                             </ol>
