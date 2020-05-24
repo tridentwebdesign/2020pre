@@ -61,6 +61,7 @@ const IndexPage = () => {
                                                 <li><Link to="/webdesign/post-1">はじめてのPhotoshop</Link></li>
                                                 <li><Link to="/webdesign/post-2">合成してみよう</Link></li>
                                                 <li><Link to="/webdesign/post-3">様々なマスキングとテキスト</Link></li>
+                                                <li><Link to="/">Adobe Webデザインチュートリアル</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -90,9 +91,9 @@ const IndexPage = () => {
                                                 <li><Link to="/javascript/post-0">概要</Link></li>
                                                 <li><Link to="/javascript/post-1">jQuery</Link></li>
                                                 <li><Link to="/javascript/post-2">formからのデータ取得</Link></li>
-                                                <li><Link to="/javascript/post-3">オブジェクト_非同期</Link>
+                                                <li><Link to="/javascript/post-3">オブジェクト</Link>
                                                 </li>
-                                                <li><Link to="/">Ajax</Link>
+                                                <li><Link to="/javascript/post-4">非同期_Ajax</Link>
                                                     <ul>
                                                         <li><Link to="/javascript/post-git">Git準備</Link></li>
                                                     </ul>

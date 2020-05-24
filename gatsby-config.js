@@ -79,6 +79,14 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `remark-image-attributes`,
+          {
+            resolve: `gatsby-remark-image-attributes`,
+            options: {
+              styleAttributes: [`display`, `position`, `border`],
+              dataAttributes: true
+            }
+          },
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
