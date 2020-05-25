@@ -37,7 +37,7 @@ const IndexPage = () => {
                                                 <li><Link to="/vector/post-1">はじめてのIllustrator</Link></li>
                                                 <li><Link to="/vector/post-2">はじめてのベジェ曲線</Link></li>
                                                 <li><Link to="/vector/post-3">トレース（ベジェ曲線演習）</Link></li>
-                                                <li><Link to="/">パスファインダー＆グラデーション</Link></li>
+                                                <li><Link to="/vector/post-4">パスファインダー＆グラデーション</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -122,6 +122,7 @@ const IndexPage = () => {
                                                 <li><Link to="/jobhunting/post-2">1分間スピーチ①</Link></li>
                                                 <li><Link to="/jobhunting/post-3">1分間スピーチ②</Link></li>
                                                 <li><Link to="/jobhunting/post-4">1分間スピーチ③</Link></li>
+                                                <li><Link to="/jobhunting/post-5">1分間スピーチ④</Link></li>
                                             </ol>
                                         </div>
                                     </div>
