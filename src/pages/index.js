@@ -80,7 +80,8 @@ const IndexPage = () => {
                                                 <li><Link to="/graphics/post-0">概要</Link></li>
                                                 <li><Link to="/graphics/post-1">デザイン腕試し（名刺）</Link></li>
                                                 <li><Link to="/graphics/post-2">タイポグラフィ</Link></li>
-                                                <li><Link to="/">グリッドデザイン</Link></li>
+                                                <li><Link to="/graphics/post-3">グリッドデザイン</Link></li>
+                                                <li><Link to="/">幾何学</Link></li>
                                             </ol>
                                         </div>
                                     </div>
