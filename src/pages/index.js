@@ -38,6 +38,7 @@ const IndexPage = () => {
                                                 <li><Link to="/vector/post-2">はじめてのベジェ曲線</Link></li>
                                                 <li><Link to="/vector/post-3">トレース（ベジェ曲線演習）</Link></li>
                                                 <li><Link to="/vector/post-4">パスファインダー＆グラデーション</Link></li>
+                                                <li><Link to="/">Adobeのチュートリアルをいくつか</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -62,6 +63,7 @@ const IndexPage = () => {
                                                 <li><Link to="/webdesign/post-2">合成してみよう</Link></li>
                                                 <li><Link to="/webdesign/post-3">様々なマスキングとテキスト</Link></li>
                                                 <li><Link to="/">Adobe Webデザインチュートリアル</Link></li>
+                                                <li><Link to="/">はじめてのXd</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -82,6 +84,8 @@ const IndexPage = () => {
                                                 <li><Link to="/graphics/post-2">タイポグラフィ</Link></li>
                                                 <li><Link to="/graphics/post-3">グリッドデザイン</Link></li>
                                                 <li><Link to="/">幾何学</Link></li>
+                                                <li><Link to="/">カラースキーム</Link></li>
+                                                <li><Link to="/">グラデーション</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -94,7 +98,8 @@ const IndexPage = () => {
                                                 <li><Link to="/javascript/post-2">formからのデータ取得</Link></li>
                                                 <li><Link to="/javascript/post-3">オブジェクト</Link>
                                                 </li>
-                                                <li><Link to="/javascript/post-4">非同期_Ajax</Link>
+                                                <li><Link to="/javascript/post-4">非同期_Ajax</Link></li>
+                                                <li><Link to="/">Web_API</Link>
                                                     <ul>
                                                         <li><Link to="/javascript/post-git">Git準備</Link></li>
                                                     </ul>
