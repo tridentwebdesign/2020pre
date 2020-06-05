@@ -130,10 +130,7 @@ const IndexPage = () => {
                                             <ol>
                                                 <li><Link to="/jobhunting/post-0">概要</Link></li>
                                                 <li><Link to="/jobhunting/post-1">就職活動報告</Link></li>
-                                                <li><Link to="/jobhunting/post-2">1分間スピーチ①</Link></li>
-                                                <li><Link to="/jobhunting/post-3">1分間スピーチ②</Link></li>
-                                                <li><Link to="/jobhunting/post-4">1分間スピーチ③</Link></li>
-                                                <li><Link to="/jobhunting/post-5">1分間スピーチ④</Link></li>
+                                                <li><Link to="/jobhunting/post-2">1分間スピーチ</Link></li>
                                             </ol>
                                         </div>
                                     </div>
