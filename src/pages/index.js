@@ -100,7 +100,8 @@ const IndexPage = () => {
                                                 </li>
                                                 <li><Link to="/javascript/post-4">非同期_Ajax</Link></li>
                                                 <li><Link to="/javascript/post-5">Web_API</Link></li>
-                                                <li><Link to="/javascript/post-6">Youtube API</Link>
+                                                <li><Link to="/javascript/post-6">Youtube API</Link></li>
+                                                <li><Link to="/">Youtube Data API</Link>
                                                     <ul>
                                                         <li><Link to="/javascript/post-git">Git準備</Link></li>
                                                     </ul>
