@@ -22,8 +22,10 @@ a {
 }
 
 .content {
+
     p {
         line-height: 1.8;
+        word-wrap: break-all;
     }
 
     a {
@@ -37,6 +39,8 @@ a {
 
     ol,
     ul {
+        word-break: break-all;
+
         .gatsby-resp-image-wrapper {
             margin: 1em auto 3em;
             border: 1px solid #e6e6e6;
@@ -66,6 +70,7 @@ a {
         background: #e6e6e6;
         color: inherit;
         font-weight: normal;
+        word-break: break-all;
     }
 }
 
