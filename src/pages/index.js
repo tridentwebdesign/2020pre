@@ -102,7 +102,8 @@ const IndexPage = () => {
                                                 <li><Link to="/javascript/post-5">Web_API</Link></li>
                                                 <li><Link to="/javascript/post-6">Youtube API</Link></li>
                                                 <li><Link to="/javascript/post-7">Youtube Data API</Link></li>
-                                                <li><Link to="/javascript/post-8">スクロール</Link>
+                                                <li><Link to="/javascript/post-8">スクロール①</Link></li>
+                                                <li><Link to="/">スクロール②</Link>
                                                     <ul>
                                                         <li><Link to="/javascript/post-git">Git準備</Link></li>
                                                     </ul>
