@@ -83,8 +83,13 @@ module.exports = {
           {
             resolve: `gatsby-remark-image-attributes`,
             options: {
-              styleAttributes: [`display`, `position`, `border`],
-              dataAttributes: true
+              styleAttributes: [`display`, `position`, `border`]
+            }
+          },
+          {
+            resolve: 'gatsby-remark-prismjs-title',
+            options: {
+              className: 'your-custom-class-name'
             }
           },
           {

@@ -32,7 +32,7 @@ const IndexPage = () => {
                                     <div className="column is-4">
                                         <h2 className="title is-5">ベクターグラフィックス</h2>
                                         <div className="content">
-                                            <ol>
+                                            <ol start="0">
                                                 <li><Link to="/vector/post-0">概要</Link></li>
                                                 <li><Link to="/vector/post-1">はじめてのIllustrator</Link></li>
                                                 <li><Link to="/vector/post-2">はじめてのベジェ曲線</Link></li>
@@ -45,7 +45,7 @@ const IndexPage = () => {
                                     <div className="column is-4">
                                         <h2 className="title is-5">業界研究（Webリテラシー）</h2>
                                         <div className="content">
-                                            <ol>
+                                            <ol start="0">
                                                 <li><Link to="/industry/post-0">概要</Link></li>
                                                 <li><Link to="/industry/post-1">Webブラウザ</Link></li>
                                                 <li><Link to="/industry/post-2">Webサーバー</Link></li>
@@ -57,7 +57,7 @@ const IndexPage = () => {
                                     <div className="column is-4">
                                         <h2 className="title is-5">Webデザイン</h2>
                                         <div className="content">
-                                            <ol>
+                                            <ol start="0">
                                                 <li><Link to="/webdesign/post-0">概要</Link></li>
                                                 <li><Link to="/webdesign/post-1">はじめてのPhotoshop</Link></li>
                                                 <li><Link to="/webdesign/post-2">合成してみよう</Link></li>
@@ -78,7 +78,7 @@ const IndexPage = () => {
                                     <div className="column is-4">
                                         <h2 className="title is-5">グラフィックデザイン</h2>
                                         <div className="content">
-                                            <ol>
+                                            <ol start="0">
                                                 <li><Link to="/graphics/post-0">概要</Link></li>
                                                 <li><Link to="/graphics/post-1">デザイン腕試し（名刺）</Link></li>
                                                 <li><Link to="/graphics/post-2">タイポグラフィ</Link></li>
@@ -92,7 +92,7 @@ const IndexPage = () => {
                                     <div className="column is-4">
                                         <h2 className="title is-5">JavaScript演習</h2>
                                         <div className="content">
-                                            <ol>
+                                            <ol start="0">
                                                 <li><Link to="/javascript/post-0">概要</Link></li>
                                                 <li><Link to="/javascript/post-1">jQuery</Link></li>
                                                 <li><Link to="/javascript/post-2">formからのデータ取得</Link></li>
@@ -101,7 +101,8 @@ const IndexPage = () => {
                                                 <li><Link to="/javascript/post-4">非同期_Ajax</Link></li>
                                                 <li><Link to="/javascript/post-5">Web_API</Link></li>
                                                 <li><Link to="/javascript/post-6">Youtube API</Link></li>
-                                                <li><Link to="/javascript/post-7">Youtube Data API</Link>
+                                                <li><Link to="/javascript/post-7">Youtube Data API</Link></li>
+                                                <li><Link to="/javascript/post-8">スクロール</Link>
                                                     <ul>
                                                         <li><Link to="/javascript/post-git">Git準備</Link></li>
                                                     </ul>
@@ -112,7 +113,7 @@ const IndexPage = () => {
                                     <div className="column is-4">
                                         <h2 className="title is-5">Webアプリ制作</h2>
                                         <div className="content">
-                                            <ol>
+                                            <ol start="0">
                                                 <li><Link to="/application/post-0">概要</Link></li>
                                                 <li><Link to="/application/post-1">UX手法_インタビュー</Link></li>
                                                 <li><Link to="/application/post-2">UX手法_ペルソナ作成</Link></li>
@@ -129,7 +130,7 @@ const IndexPage = () => {
                                     <div className="column is-4">
                                         <h2 className="title is-5">就職研究</h2>
                                         <div className="content">
-                                            <ol>
+                                            <ol start="0">
                                                 <li><Link to="/jobhunting/post-0">概要</Link></li>
                                                 <li><Link to="/jobhunting/post-1">就職活動報告</Link></li>
                                                 <li><Link to="/jobhunting/post-2">1分間スピーチ</Link></li>
