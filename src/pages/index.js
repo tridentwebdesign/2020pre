@@ -51,6 +51,7 @@ const IndexPage = () => {
                                                 <li><Link to="/industry/post-2">Webサーバー</Link></li>
                                                 <li><Link to="/industry/post-3">ネットワーク技術</Link></li>
                                                 <li><Link to="/industry/post-4">HTTP</Link></li>
+                                                <li><Link to="/industry/post-5">Webのさまざまなデータ形式</Link></li>
                                             </ol>
                                         </div>
                                     </div>
