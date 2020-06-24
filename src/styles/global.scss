@@ -76,6 +76,12 @@ a {
         font-weight: normal;
         word-break: break-all;
     }
+
+    .post-section {
+        blockquote:not(last-child) {
+            margin-bottom: 4em;
+        }
+    }
 }
 
 
