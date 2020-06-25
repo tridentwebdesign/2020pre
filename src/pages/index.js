@@ -123,6 +123,7 @@ const IndexPage = () => {
                                                 <li><Link to="/application/post-4">UX手法_プロトタイピング・テスト</Link></li>
                                                 <li><Link to="/">UX手法_UIデザイン</Link></li>
                                                 <li><Link to="/">UX手法_実装</Link></li>
+                                                <li><Link to="/">コンテスト</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -134,7 +135,8 @@ const IndexPage = () => {
                                             <ol start="0">
                                                 <li><Link to="/jobhunting/post-0">概要</Link></li>
                                                 <li><Link to="/jobhunting/post-1">就職活動報告</Link></li>
-                                                <li><Link to="/jobhunting/post-2">1分間スピーチ</Link></li>
+                                                <li><Link to="/jobhunting/post-2">1分間スピーチ①</Link></li>
+                                                <li><Link to="/jobhunting/post-3">1分間スピーチ②</Link></li>
                                             </ol>
                                         </div>
                                     </div>
