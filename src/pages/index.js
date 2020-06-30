@@ -104,7 +104,8 @@ const IndexPage = () => {
                                                 <li><Link to="/javascript/post-6">Youtube API</Link></li>
                                                 <li><Link to="/javascript/post-7">Youtube Data API</Link></li>
                                                 <li><Link to="/javascript/post-8">スクロール①</Link></li>
-                                                <li><Link to="/javascript/post-9">スクロール②</Link>
+                                                <li><Link to="/javascript/post-9">スクロール②</Link></li>
+                                                <li><Link to="/">マウスストーカー</Link>
                                                     <ul>
                                                         <li><Link to="/javascript/post-git">Git準備</Link></li>
                                                     </ul>
@@ -123,7 +124,7 @@ const IndexPage = () => {
                                                 <li><Link to="/application/post-4">UX手法_プロトタイピング・テスト</Link></li>
                                                 <li><Link to="/">UX手法_UIデザイン</Link></li>
                                                 <li><Link to="/">UX手法_実装</Link></li>
-                                                <li><Link to="/">コンテスト</Link></li>
+                                                <li><Link to="/application/contest">コンテスト</Link></li>
                                             </ol>
                                         </div>
                                     </div>
