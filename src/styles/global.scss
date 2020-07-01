@@ -127,9 +127,9 @@ h4.is-6+p:not(:last-child) {
 .movie iframe {
     width: 100%;
     height: 600px;
-    min-height: -moz-available;
     max-height: -webkit-fill-available;
-    height: fill-available;
+    max-height: -moz-available;
+    max-height: stretch;
 }
 
 .report {

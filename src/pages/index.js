@@ -39,6 +39,8 @@ const IndexPage = () => {
                                                 <li><Link to="/vector/post-3">トレース（ベジェ曲線演習）</Link></li>
                                                 <li><Link to="/vector/post-4">パスファインダー＆グラデーション</Link></li>
                                                 <li><Link to="/vector/post-5">ポカリスウェットトレース</Link></li>
+                                                <li><Link to="/">その他の制作方法＆SVG</Link></li>
+                                                <li><Link to="/">アピアランス</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -52,6 +54,7 @@ const IndexPage = () => {
                                                 <li><Link to="/industry/post-3">ネットワーク技術</Link></li>
                                                 <li><Link to="/industry/post-4">HTTP</Link></li>
                                                 <li><Link to="/industry/post-5">Webのさまざまなデータ形式</Link></li>
+                                                <li><Link to="/">デザイン用語</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -65,6 +68,7 @@ const IndexPage = () => {
                                                 <li><Link to="/webdesign/post-3">様々なマスキングとテキスト</Link></li>
                                                 <li><Link to="/webdesign/post-4">Adobe Webデザインチュートリアル</Link></li>
                                                 <li><Link to="/">はじめてのXd</Link></li>
+                                                <li><Link to="/">ブログデザイン</Link></li>
                                             </ol>
                                         </div>
                                     </div>
