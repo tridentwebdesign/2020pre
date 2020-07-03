@@ -2,7 +2,7 @@
 title: "業界研究_5"
 description: 'Webのさまざまなデータ形式'
 category: 'industry'
-date: "2020-07-29"
+date: "2020-07-01"
 tags: ['HTTP', '業界研究', '講演者']
 author: '河口 英生'
 slug: 'speaker'
