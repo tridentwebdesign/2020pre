@@ -68,8 +68,8 @@ const IndexPage = () => {
                                                 <li><Link to="/webdesign/post-2">合成してみよう</Link></li>
                                                 <li><Link to="/webdesign/post-3">様々なマスキングとテキスト</Link></li>
                                                 <li><Link to="/webdesign/post-4">Adobe Webデザインチュートリアル</Link></li>
-                                                <li><Link to="/">はじめてのXd</Link></li>
-                                                <li><Link to="/">ブログデザイン</Link></li>
+                                                <li><Link to="/webdesign/post-5">はじめてのXd</Link></li>
+                                                <li><Link to="/webdesign/post-6">ブログデザイン</Link></li>
                                             </ol>
                                         </div>
                                     </div>
