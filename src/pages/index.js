@@ -39,7 +39,7 @@ const IndexPage = () => {
                                                 <li><Link to="/vector/post-3">トレース（ベジェ曲線演習）</Link></li>
                                                 <li><Link to="/vector/post-4">パスファインダー＆グラデーション</Link></li>
                                                 <li><Link to="/vector/post-5">ポカリスウェットトレース</Link></li>
-                                                <li><Link to="/">その他の制作方法＆SVG</Link></li>
+                                                <li><Link to="/vector/post-6">その他の制作方法＆SVG</Link></li>
                                                 <li><Link to="/">アピアランス</Link></li>
                                             </ol>
                                         </div>
