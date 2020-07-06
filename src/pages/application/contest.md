@@ -1,5 +1,5 @@
 ---
-title: 'Webアプリ制作_4'
+title: 'Webアプリ制作_コンテスト'
 description: '行動シナリオを作成し、プロトタイプを作成する。'
 category: 'application'
 date: '2020-06-30'
@@ -10,10 +10,27 @@ slug: 'contest'
 <div class="post-section">
 <h3 class="title is-5" >アプリコンテスト情報</h3>
 
-<h4 class="title is-6" >授業資料</h4>
+<h4 class="title is-6" >e-ZUKAスマートフォンアプリコンテスト2020</h4>
 
-<figure class="is-fullwidth slide">
-  <iframe src="https://drive.google.com/file/d/1OZj7wROGNPdpP73nFJb6rtw8ptus6zg8/preview"></iframe>
-</figure>
+[e-ZUKAスマートフォンアプリコンテスト2020](http://e-zuka.info/2020/)
+- 募集期間：2020年6月15日（月）から9月15日（火）まで
+- 募集テーマ：『５Ｇを連想させる、スマホが浸透していく未来の生活』～生活に浸透するスマホをどう使う？～  
+（来る、次世代通信システム”5G”を見据えたアプリケーション
+
+<h4 class="title is-6" >にいがたデジコングランプリ2020</h4>
+
+[にいがたデジコングランプリ2020](https://www.niigata-digicon.com/digicon/index.html)
+- 応募期間：2020年6月22日（月）から2020年9月18（金）まで
+- 今年度のテーマ「ドキドキ」に沿って、制作したアプリ作品およびそのプレイ動画をご応募ください。
+
+<h4 class="title is-6" >あいち学生観光まちづくりアワード</h4>
+
+[あいち学生観光まちづくりアワード](https://www.pref.aichi.jp/soshiki/kanko/award-2-bosyuu.html)
+- 募集期間：2020年6月10日（水曜日）から12月2日（水曜日）まで
+- 下記の3つをテーマにした愛知県の観光振興に関する取組の企画
+  1. あいちで食べよう！
+  2. あいちで泊まろう！
+  3. あいちを巡ろう！
+
 </div>
 
