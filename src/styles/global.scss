@@ -26,6 +26,10 @@ a {
     p {
         line-height: 1.8;
         word-wrap: break-all;
+
+        &:not(:last-child) {
+            margin-bottom: 2em;
+        }
     }
 
     a {
@@ -94,7 +98,7 @@ a {
     }
 
     &.is-5~&.is-6:not(:first-of-type) {
-        margin-top: 4.8em;
+        margin-top: 3em;
     }
 
     &.is-6 {
