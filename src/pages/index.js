@@ -55,6 +55,7 @@ const IndexPage = () => {
                                                 <li><Link to="/industry/post-4">HTTP</Link></li>
                                                 <li><Link to="/industry/post-5">Webのさまざまなデータ形式</Link></li>
                                                 <li><Link to="/">デザイン用語</Link></li>
+                                                <li><Link to="/">期末テスト</Link></li>
                                                 <li><Link to="/industry/speaker">業界研究講演</Link></li>
                                             </ol>
                                         </div>
@@ -127,8 +128,7 @@ const IndexPage = () => {
                                                 <li><Link to="/application/post-2">UX手法_ペルソナ作成</Link></li>
                                                 <li><Link to="/application/post-3">UX手法_価値シナリオ・行動・操作シナリオ</Link></li>
                                                 <li><Link to="/application/post-4">UX手法_プロトタイピング・テスト</Link></li>
-                                                <li><Link to="/">UX手法_UIデザイン</Link></li>
-                                                <li><Link to="/">UX手法_実装</Link></li>
+                                                <li><Link to="/">UX手法_UIデザイン・実装</Link></li>
                                                 <li><Link to="/application/contest">コンテスト</Link></li>
                                             </ol>
                                         </div>
