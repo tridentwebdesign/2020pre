@@ -128,7 +128,7 @@ const IndexPage = () => {
                                                 <li><Link to="/application/post-2">UX手法_ペルソナ作成</Link></li>
                                                 <li><Link to="/application/post-3">UX手法_価値シナリオ・行動・操作シナリオ</Link></li>
                                                 <li><Link to="/application/post-4">UX手法_プロトタイピング・テスト</Link></li>
-                                                <li><Link to="/">UX手法_UIデザイン・実装</Link></li>
+                                                <li><Link to="/application/post-5">UX手法_UIデザイン・実装</Link></li>
                                                 <li><Link to="/application/contest">コンテスト</Link></li>
                                             </ol>
                                         </div>
