@@ -23,6 +23,10 @@ a {
 
 .content {
 
+    h3:not(:first-child){
+        margin-top: 3.6em;
+    }
+
     p {
         line-height: 1.8;
         word-wrap: break-all;
