@@ -112,11 +112,8 @@ const IndexPage = () => {
                                                 <li><Link to="/javascript/post-8">スクロール①</Link></li>
                                                 <li><Link to="/javascript/post-9">スクロール②</Link></li>
                                                 <li><Link to="/javascript/post-10">マウスストーカー</Link></li>
-                                                <li><Link to="/javascript/post-11">日にちと時間</Link>
-                                                    <ul>
-                                                        <li><Link to="/javascript/post-git">Git準備</Link></li>
-                                                    </ul>
-                                                </li>
+                                                <li><Link to="/javascript/post-11">日にちと時間</Link></li>
+                                                <li><Link to="/javascript/post-git">GitとGitHub</Link></li>
                                                 <li><Link to="/">フレームワーク（Veu.js）</Link></li>
                                             </ol>
                                         </div>
