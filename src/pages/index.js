@@ -93,6 +93,7 @@ const IndexPage = () => {
                                                 <li><Link to="/graphics/post-4">幾何学</Link></li>
                                                 <li><Link to="/graphics/post-5">カラースキーム</Link></li>
                                                 <li><Link to="/graphics/post-6">グラデーション</Link></li>
+                                                <li><Link to="/graphics/post-6">変わった形レイアウト</Link></li>
                                             </ol>
                                         </div>
                                     </div>
@@ -115,6 +116,7 @@ const IndexPage = () => {
                                                 <li><Link to="/javascript/post-11">日にちと時間</Link></li>
                                                 <li><Link to="/javascript/post-12">GitとGitHub</Link></li>
                                                 <li><Link to="/javascript/post-13">フレームワーク（Veu.js）</Link></li>
+                                                <li><Link to="/">フレームワーク（Veu.js）2</Link></li>
                                             </ol>
                                         </div>
                                     </div>
