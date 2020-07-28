@@ -23,7 +23,7 @@ a {
 
 .content {
 
-    h3:not(:first-child){
+    h3:not(:first-child) {
         margin-top: 3.6em;
     }
 
@@ -111,6 +111,7 @@ a {
 
     &.is-6 {
         margin-bottom: .8em;
+        font-size: 1.1rem;
     }
 }
 
