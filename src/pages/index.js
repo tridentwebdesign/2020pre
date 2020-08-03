@@ -145,7 +145,7 @@ const IndexPage = () => {
                                                 <li><Link to="/jobhunting/post-1">就職活動報告</Link></li>
                                                 <li><Link to="/jobhunting/post-2">1分間スピーチ①</Link></li>
                                                 <li><Link to="/jobhunting/post-3">1分間スピーチ②</Link></li>
-         <li><Link to="/">最終日ポートフォリオチェック</Link></li>
+                                                <li><Link to="/jobhunting/post-4">最終日ポートフォリオチェック</Link></li>
                                             </ol>
                                         </div>
                                     </div>
