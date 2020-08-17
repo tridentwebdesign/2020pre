@@ -8,7 +8,7 @@ author: '河口 英生'
 slug: 'contest'
 ---
 <div class="post-section">
-<h3 class="title is-5" >2020学園祭に関するアンケート</h3>
+<h3 class="title is-5">2020学園祭に関するアンケート</h3>
 
 新型コロナウイルス感染症が流行しています。  
 そのため、今年の学園祭は今までとは違う形での開催となります。  
@@ -28,22 +28,40 @@ slug: 'contest'
 </div>
 
 <div class="post-section">
-<h3 class="title is-5" >アプリコンテスト情報</h3>
+<h3 class="title is-5">アプリコンテスト情報</h3>
 
-<h4 class="title is-6" >e-ZUKAスマートフォンアプリコンテスト2020</h4>
+<h4 class="title is-6">e-ZUKAスマートフォンアプリコンテスト2020</h4>
 
 [e-ZUKAスマートフォンアプリコンテスト2020](http://e-zuka.info/2020/)
 - 募集期間：2020年6月15日（月）から9月15日（火）まで
 - 募集テーマ：『５Ｇを連想させる、スマホが浸透していく未来の生活』～生活に浸透するスマホをどう使う？～  
 （来る、次世代通信システム”5G”を見据えたアプリケーション
 
-<h4 class="title is-6" >にいがたデジコングランプリ2020</h4>
+<h4 class="title is-6">にいがたデジコングランプリ2020</h4>
 
 [にいがたデジコングランプリ2020](https://www.niigata-digicon.com/digicon/index.html)
 - 応募期間：2020年6月22日（月）から2020年9月18（金）まで
 - 今年度のテーマ「ドキドキ」に沿って、制作したアプリ作品およびそのプレイ動画をご応募ください。
 
-<h4 class="title is-6" >信州未来アプリコンテスト0（ZERO）</h4>
+<h4 class="title is-6">いばらきデジタルコンテンツ・ソフトウェア大賞2020</h4>
+
+[いばらきデジタルコンテンツ・ソフトウェア大賞2020](http://www.it-ibaraki.jp/contest/digicon2020/) 
+
+- 募集期間
+  - アプリ・ソフトウェア・IoT部門，デジタルアート部門
+  - 令和2年7月10日（金）から10月31日（土）まで
+- 募集部門
+  - アプリ・ソフトウェア・IoT部門
+      - アプリ作品
+      - ソフトウェア作品
+      - IoT関連作品
+  - デジタルアート部門
+      - デジタル動画作品
+- 公式サイト
+[http://www.it-ibaraki.jp/contest/digicon2020/](http://www.it-ibaraki.jp/contest/digicon2020/)  
+※コンテストの詳細は，公式サイトを御覧ください。
+
+<h4 class="title is-6">信州未来アプリコンテスト0（ZERO）</h4>
 
 [信州未来アプリコンテスト0（ZERO）](https://shinshu-futureapp.net/)
 - 応募締切：2020年10月15日（木）まで
@@ -55,7 +73,7 @@ slug: 'contest'
 
 ![コンテストエントリーシート](../../images/appcontest0-2020_entry.jpg)
 
-<h4 class="title is-6" >あいち学生観光まちづくりアワード</h4>
+<h4 class="title is-6">あいち学生観光まちづくりアワード</h4>
 
 [あいち学生観光まちづくりアワード](https://www.pref.aichi.jp/soshiki/kanko/award-2-bosyuu.html)
 - 募集期間：2020年6月10日（水曜日）から12月2日（水曜日）まで
