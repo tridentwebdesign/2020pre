@@ -115,6 +115,14 @@ a {
     }
 }
 
+.hero-body .subtitle .period{
+    padding-right: 1.2em;
+    
+    a:hover{
+        color: $link;
+    }
+}
+
 h4.is-6+p:not(:last-child) {
     margin-bottom: 2em;
 }
