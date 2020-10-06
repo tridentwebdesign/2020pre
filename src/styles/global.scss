@@ -21,6 +21,12 @@ a {
     }
 }
 
+.page-entrance .content{
+    ul,ol{
+        line-height: 2;
+    }
+}
+
 .content {
 
     h3:not(:first-child) {
@@ -48,7 +54,6 @@ a {
     ol,
     ul {
         word-break: break-all;
-        line-height: 2;
 
         .gatsby-resp-image-wrapper {
             margin: 1em auto 3em;

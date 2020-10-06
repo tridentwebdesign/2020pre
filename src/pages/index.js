@@ -26,7 +26,7 @@ const IndexPage = () => {
                 {
                     <div className="wrapper">
                         <section className="section">
-                            <div className="container">
+                            <div className="container page-entrance">
                                 <h2 className="title is-3">WF1（1年生）</h2>
                                 <div className="columns">
                                     <div className="column is-4">
